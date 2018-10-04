@@ -1,0 +1,63 @@
+@media all and (min-width: 480px) {
+  html, 
+  body {
+    height: 100%;
+    background-color: #efeef6;
+  }
+
+  .signIn form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  .shadow {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+  }
+
+  .bt-deepskyblue {
+    background-color: deepskyblue;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgba(1, 1, 1, 0);
+    padding: 10px 40px;
+    color:ghostwhite;
+  }
+
+  
+  .DottedBox_content {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .text-input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size:16px;
+    border: 2px solid rgb(190, 190, 190);
+    border-radius: 1rem;
+  }
+
+  input:focus {
+    border: 2px solid #242526;
+  };
+
+  
+  .aTagStyle {
+    color:deepskyblue;
+    a:hover {
+      text-decoration: underline;
+    };
+  }
+
+  .cardStyle {
+    height: 500;
+    width: 370;
+    margin: 'auto';
+    padding: '10px';
+    background-color: ghostwhite;
+  }
+
+  .text-red {
+    color: red;
+  }
+}
